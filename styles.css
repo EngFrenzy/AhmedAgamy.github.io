@@ -2,60 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2.5em;
-}
-
-header p {
-    font-size: 1.2em;
-}
-
-section {
+.container {
+    width: 80%;
     margin: 20px auto;
     padding: 20px;
-    max-width: 900px;
     background-color: #fff;
-    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    margin-bottom: 10px;
-    color: #444;
-}
-
-ul {
-    list-style-type: none;
-    margin-top: 10px;
-}
-
-ul li {
-    margin: 5px 0;
-}
-
-footer {
+header {
     text-align: center;
-    padding: 20px;
-    background: #333;
-    color: #fff;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1em;
+    color: #666;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
 }
 
 .job {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+
+.job h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.job p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
